@@ -29,10 +29,9 @@ highest internal AX (accessibility) score in the product line.
 
 ## Hardest part / what I'd do differently now
 
-[ADD: what was genuinely hard about this — getting other engineers to care about
-accessibility before it broke something, keeping up with a fast-shipping team,
-some specific defect that was gnarly to fix? And is there anything about how the
-program was run that you'd change if you were setting it up again?]
+The genuinely hard part wasn't fixing individual defects — it was building the awareness that accessibility needs to enter the development cycle at the very first steps, not get bolted on at the end as a review-stage checklist item. Shifting that mindset across a fast-shipping team took sustained, repeated effort, not a single training or a one-off audit.
+
+That shift paid off in two ways: it improved formal compliance, which is easy to measure, but it also improved the product's overall UX in ways that are much harder to track at a small scale — the kind of intangible quality that's hard to point to in a single metric but is genuinely part of what makes a product feel great to use. If I were setting the program up again, I'd try to find a way to make that second, harder-to-measure benefit visible earlier, since it's the stronger argument for why accessibility deserves a seat at the design table rather than just a pass before ship.
 
 ## Stack
 
