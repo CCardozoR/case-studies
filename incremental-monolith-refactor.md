@@ -28,10 +28,9 @@ for new functionality dropped from a full quarter to about a week.
 
 ## Hardest part / what I'd do differently now
 
-[ADD: what made this hard in practice — sequencing the refactor so nothing broke,
-convincing stakeholders to invest time in it, a specific piece of the old design
-that was especially painful to untangle? And anything you'd sequence differently
-if you did it again?]
+The hardest part wasn't technical — it was convincing stakeholders to accept one big, predictable pain up front instead of the alternative: a long tail of small, unpredictable pains that would keep cascading into rework and slower delivery every quarter after. That meant making the case to sacrifice visible feature delivery for a couple of sprints in order to guarantee the team's productivity for the next couple of quarters — a hard trade to sell when the cost is immediate and concrete and the payoff is diffuse and in the future.
+
+If I did it again, I'd invest earlier in making that future payoff visible and trackable — instrumenting delivery time before the refactor started, so the "quarter to a week" result wasn't just a story I told afterward but a number stakeholders could watch materialize in real time, which would make the next case for this kind of trade-off easier to make.
 
 ## Stack
 
