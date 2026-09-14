@@ -34,4 +34,4 @@ If I did it again, I'd invest earlier in making that future payoff visible and t
 
 ## Stack
 
-Java, Spring Boot, PostgreSQL, microservices architecture
+Angular JS, React 
