@@ -29,10 +29,11 @@ and it measurably raised AX awareness across the product.
 
 ## Hardest part / what I'd do differently now
 
-[ADD: what was the hardest part of building or rolling this out — getting teams to
-adopt it, tuning it to avoid false positives, something else? And what would you
-change if you built it again today? This is the section that makes the case study
-sound like you, not like a resume bullet — write it in your own words.]
+The hardest part wasn't the tooling — it was distilling years of accumulated, tribal knowledge about our product's specific accessibility pitfalls into a single, thorough document that was precise enough for an LLM to act on reliably. Too vague and it produced noise; too narrow and it missed real cases. Getting that balance right took real iteration.
+
+The other hard part was adoption reach. A written skill only helps if it's actually consulted, so I pushed it into two different moments in the workflow rather than leaving it as a document people had to remember to open: first into automated code review, where it caught AX issues an LLM could flag from the diff even when they'd slip past a human reviewer's attention; and later into early design conversations, so accessibility got discussed before a single line of frontend code was written instead of after. That second move — shifting the AX conversation left, into design — is what actually changed behavior across teams, more than the code-review catch rate did.
+
+If I did it again, I'd build a tighter feedback loop from day one: a way for developers to flag a missed or wrong pitfall straight back into the document, so it improved from real usage instead of periodic manual updates from me.
 
 ## Stack
 
