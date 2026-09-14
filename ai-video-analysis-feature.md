@@ -28,10 +28,9 @@ usability of long-form video.
 
 ## Hardest part / what I'd do differently now
 
-[ADD: what was the trickiest part of this from the frontend side — handling
-imperfect AI-generated chapter suggestions gracefully in the UI, performance,
-something else? And what would you do differently if you built it again?]
+The trickiest part wasn't wiring the frontend to the AI-generated output — it was the interaction design itself. Chapter markers and jump-to-timestamp navigation are patterns people take for granted now, but at the time there wasn't an established, off-the-shelf pattern to copy for this product. I had to design the interaction from scratch: how imperfect, AI-generated suggestions should present themselves in the UI, how a user scans and trusts a set of auto-generated chapters, how the whole thing degrades gracefully when a suggestion is mediocre rather than wrong.
 
+What I'd do differently now: apply the accessibility expertise I've built since then to that same interaction design. At the time I was solving for the general case; today I'd design the chapter navigation to genuinely work for a wider audience — screen reader users, keyboard-only navigation, users with different visual and cognitive needs — from the first version, rather than treating that as a pass to layer on afterward.
 ## Stack
 
 React, TypeScript (frontend) · Spring Boot APIs (backend, AI/ML pipeline)
